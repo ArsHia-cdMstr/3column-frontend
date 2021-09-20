@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
+
+@font-face {
+    font-family: h2font;
+    src: url(BigShouldersStencilDisplay-Bold.woff2);
+}
+
+#maindiv{
+    height:400px;
+    width:900px;
+    margin:50px auto ;
+    position: relative;
+    background-color: aqua;
+}
+
+#smalldiv{
+    position: absolute;
+    float: left;    
+    width:33.33%;
+    height: 100%;
+    color:white;
+}
+
+.pos1{
+    background: #E28625;
+    left: 0;
+}
+
+.pos2{
+    background: #006971;
+    left: 33.33%;
+}
+
+.pos3{
+    left:66.66%;
+    background: #004140;
+}
+
+#head2{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family: h2font;
+    font-size: 3VW;
+
+}
+
+#parMargin{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    /* background: red; */
+    margin: 40px;
+    opacity: 0.75;
+}
+
+#imgmargin{
+    /* background-color: red; */
+    margin-left: 10% ;
+    margin-top: 10%;
+}
+
+#button{
+    font-family: 'Lexend Deca', sans-serif;
+    color:rgba(red, green, blue, 0);
+    font-weight: 900;
+    margin: 0% 20%;
+    border-radius: 30px;
+    border: 0px;
+    padding: 15px 30px;
+}
+
+#button:hover{
+    border:2px solid white; 
+    background:rgba(0,0,0, 0);
+    color:white;
+}
+
+
+
+
+
